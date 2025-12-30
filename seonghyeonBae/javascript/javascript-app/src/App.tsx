@@ -4,6 +4,7 @@ import { CalculationExample } from "./math_operation/CalculationExample";
 import { LogicalOperatiomExample } from "./logical_operation/LogicalOperatiomExample";
 import { ControlFlowIf } from "./control_flow/ControlFlowIf";
 import { FirstProblem } from "./problem/FirstProblem";
+import { ControlFlowSwitch } from "./control_flow/ControlFlowSwitch";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <LogicalOperatiomExample />
         <ControlFlowIf />
         <FirstProblem />
+        <ControlFlowSwitch />
       </div>
     </>
   );
