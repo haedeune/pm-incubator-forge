@@ -6,6 +6,8 @@ import { ControlFlowIf } from './control_flow/ControlFlowIf'
 import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 import { VariableAndDataType } from './data_type/VariableAndDataType'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
+import { MapExample } from './map/MapExample'
+import { MapReduceExample } from './map/MapReduceExample'
 import { CalculationExample } from './math_operation/CalculationExample'
 import { FirstProblem } from './problem/FirstProblem'
 import { SecondProblem } from './problem/SecondProblem'
@@ -30,6 +32,10 @@ function App() {
       <ControlFlowForSummation/>
       <ControlFlowForSummationExample/>
       <SecondProblem/>
+      <MapExample/>
+      <MapReduceExample/> 
+      </div>
+      <div>
     </div>
     </> 
   )
