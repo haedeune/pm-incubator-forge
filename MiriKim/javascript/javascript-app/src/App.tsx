@@ -13,6 +13,8 @@ import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 import { ControlFlowForSumExample } from './control_flow/ControlFlowForSumExample'
 import { SecondProblem } from './quiz/SecondProblem'
 
+import { MapExample } from "./map/MapExample.tsx";
+
 function App() {
  
 
@@ -35,6 +37,8 @@ function App() {
         <ControlFlowForSummation/>
         <ControlFlowForSumExample/>
         <SecondProblem/>
+
+        <MapExample/>
 
       </div>
     </>
